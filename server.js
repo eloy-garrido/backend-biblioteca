@@ -9,7 +9,9 @@ const PORT = process.env.PORT || 3000;
 // ⚠️ CORS Configuration
 const corsOptions = {
   origin: [
-    'https://frontend-biblioteca-un1v.vercel.app/'  
+    'https://frontend-biblioteca.vercel.app',
+    'http://localhost:4200',
+    'http://localhost:3000'
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
