@@ -11,7 +11,7 @@ const corsOptions = {
   origin: [
     'http://localhost:4200',
     'https://backend-biblioteca-s1qy.onrender.com/',
-    'https://biblioteca-frontend-scmy.onrender.com/'  
+    'https://frontend-biblioteca-un1v.vercel.app/'  
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
